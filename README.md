@@ -23,7 +23,7 @@ The fundamental architecture of the ZED Ecosystem is governed by three foundatio
 
 ---
 
-## ⚡ CORE HARD-CORE DIRECTIVES & PROTOCOLS
+## ⚡ CORE DIRECTIVES & PROTOCOLS
 
 ### 1. The Dual-Tier Operational Architecture
 To insulate the common man from macro-level structural risks, the network splits all processing, validation, and connectivity into two entirely independent topological layers:
