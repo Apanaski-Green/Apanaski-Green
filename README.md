@@ -58,10 +58,26 @@ Participating institutional and sovereign nodes are mandated to deploy **Distrib
 
 ---
 
+## 💱 LIQUIDITY ENGINE & NON-CUSTODIAL GATEWAYS
+
+To protect the sovereign independence of the network, the ZED Ecosystem enforces a **100% non-custodial liquidity design**, eliminating central operator pools or vulnerable reserve honey-pots. External value flow is handled through two robust, decentralized pathways:
+
+### 1. Peer-to-Peer (P2P) Local Mesh Escrow
+The primary gateway for everyday users entering or exiting the ecosystem relies on direct, borderless trade via a native P2P Escrow Protocol embedded into the mobile local mesh application layer.
+*   **The Escrow Blueprint:** When an individual wishes to acquire ℤ using local fiat currencies or external digital stablecoins (like USDT), the seller's ℤ is locked within a secure, cryptographic local ledger escrow. 
+*   **Settlement Execution:** Upon direct confirmation of funds transfer between the participants, the mesh network triggers an automated signature release, instantly populating the buyer's mobile wallet. This preserves complete localization, community sovereignty, and un-censorable trade velocity.
+
+### 2. Decentralized Wrapped Asset Bridges (`wZED`)
+For global liquidity mapping and interaction with mainstream decentralized finance (DeFi) networks, the ecosystem utilizes cross-chain atomic communication layers.
+*   **The Architecture:** Native ℤ tokens can be cryptographically locked inside an absolute public lock-box within the ZED ledger framework. This action emits an encrypted attestation proof allowing a corresponding smart contract on EVM-compatible platforms to mint an identical 1:1 token named **Wrapped ZED (`wZED`)**.
+*   **Liquidity Swapping:** Users can freely swap `wZED` for USDT, ETH, or other liquid blue-chip assets via Automated Market Makers (AMMs) like Uniswap. Re-importing liquidity requires burning the `wZED` contract signature on the external chain, which immediately unlocks the native, pristine ℤ directly back onto the ZED local mesh layer.
+
+---
+
 ## 🛠️ ROADMAP & IMPLEMENTATION STATUS
 
-1.  **Phase I: Genesis Specification [CURRENT LAYER]** - Complete mathematical modeling of Hyperdimensional Lattice Shifting ($HLS$), validation parameters for Asymmetric Geometric Attestation ($AGA$), and systemic security blueprints.
+1.  **Phase I: Genesis Specification [CURRENT LAYER]** - Complete mathematical modeling of Hyperdimensional Lattice Shifting ($HLS$), validation parameters for Asymmetric Geometric Attestation ($AGA$), liquidity gateway mechanics, and systemic security blueprints.
 2.  **Phase II: Core Engine Engineering** - Implementation of the ledger protocol core directly into specialized, mobile-accessible execution directories utilizing modular environment compilers.
-3.  **Phase III: Local Mesh Testing** - Deployment of peer-to-peer routing relays over consumer mobile bands to verify the integrity of local transaction execution paths.
+3.  **Phase III: Local Mesh Testing** - Deployment of peer-to-peer routing relays over consumer mobile bands to verify the integrity of local transaction execution paths and P2P escrow speeds.
 
 ---
